@@ -1,4 +1,5 @@
 import heroBg from "@/assets/hero-bg.jpg";
+import logo from "@/assets/satyam-logo.png";
 import { ArrowRight, Phone } from "lucide-react";
 
 const Hero = () => {
@@ -15,7 +16,11 @@ const Hero = () => {
 
       <div className="container-wide relative z-10 pt-28 pb-20">
         <div className="max-w-3xl animate-fade-in-up">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur border border-white/20 mb-6">
+          <div className="inline-block bg-white/95 backdrop-blur rounded-lg p-3 shadow-elegant mb-7">
+            <img src={logo} alt="Satyam Enterprises official logo" className="h-20 md:h-24 w-auto object-contain" />
+          </div>
+
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur border border-white/20 mb-6 ml-0 md:ml-1">
             <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
             <span className="text-white/90 text-xs font-medium tracking-wider uppercase">GeM Registered Seller</span>
           </div>
