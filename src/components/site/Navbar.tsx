@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/satyam-logo.png";
 
 const links = [
   { href: "#about", label: "About" },
@@ -27,12 +28,12 @@ const Navbar = () => {
       }`}
     >
       <nav className="container-wide flex items-center justify-between h-20">
-        <a href="#home" className="flex items-center gap-2.5">
-          <div className="w-10 h-10 rounded-md bg-gradient-navy flex items-center justify-center shadow-card">
-            <span className="text-primary-foreground font-bold text-lg font-serif">S</span>
+        <a href="#home" className="flex items-center gap-3">
+          <div className={`rounded-md transition-all ${scrolled ? "bg-white shadow-card p-1" : "bg-white/95 backdrop-blur p-1"}`}>
+            <img src={logo} alt="Satyam Enterprises logo" className="h-10 w-auto object-contain" />
           </div>
-          <div className="leading-tight">
-            <div className={`font-bold text-base ${scrolled ? "text-primary" : "text-white"}`}>Satyam Enterprises</div>
+          <div className="leading-tight hidden sm:block">
+            <div className={`font-bold text-sm ${scrolled ? "text-primary" : "text-white"}`}>Satyam Enterprises</div>
             <div className={`text-[10px] uppercase tracking-widest ${scrolled ? "text-muted-foreground" : "text-white/70"}`}>
               Est. 2017
             </div>

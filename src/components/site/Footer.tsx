@@ -1,18 +1,17 @@
 import { Phone, Mail, MapPin } from "lucide-react";
+import logo from "@/assets/satyam-logo.png";
 
 const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground pt-16 pb-8">
       <div className="container-wide grid md:grid-cols-4 gap-10 mb-10">
         <div className="md:col-span-1">
-          <div className="flex items-center gap-2.5 mb-4">
-            <div className="w-10 h-10 rounded-md bg-accent flex items-center justify-center">
-              <span className="text-accent-foreground font-bold text-lg font-serif">S</span>
-            </div>
-            <div>
-              <div className="font-bold">Satyam Enterprises</div>
-              <div className="text-[10px] uppercase tracking-widest text-white/60">Proprietorship · 2017</div>
-            </div>
+          <div className="bg-white rounded-lg p-2 inline-block mb-4 shadow-card">
+            <img src={logo} alt="Satyam Enterprises logo" className="h-14 w-auto object-contain" />
+          </div>
+          <div className="mb-3">
+            <div className="font-bold">Satyam Enterprises</div>
+            <div className="text-[10px] uppercase tracking-widest text-white/60">Proprietorship · Est. 2017</div>
           </div>
           <p className="text-sm text-white/70 leading-relaxed">
             A trusted multi-category supplier serving government and institutional clients across India.
