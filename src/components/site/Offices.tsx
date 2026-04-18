@@ -15,10 +15,8 @@ const offices: Office[] = [
     badge: "MP",
     icon: Landmark,
     lines: [
-      { v: "G-2/234, Chanakya Apartment" },
-      { v: "Gulmohar Colony" },
-      { v: "Bhopal — 462029" },
-      { v: "Madhya Pradesh, India" },
+      { v: "G-2/234, Chanakya Apartment, Gulmohar Colony" },
+      { v: "Bhopal — 462029, Madhya Pradesh" },
     ],
   },
   {
@@ -27,14 +25,8 @@ const offices: Office[] = [
     badge: "DL",
     icon: Building2,
     lines: [
-      { k: "Floor", v: "I" },
-      { k: "Building / Flat No.", v: "56" },
-      { k: "Premises", v: "Gali Jatwara" },
-      { k: "Road / Street", v: "Gali Jatwara Phool Mithai" },
-      { k: "Landmark", v: "Near Delhi Head Post Office" },
-      { k: "Locality", v: "New Delhi" },
-      { k: "District", v: "Central Delhi" },
-      { k: "PIN", v: "110006" },
+      { v: "Floor I, No. 56, Gali Jatwara Phool Mithai" },
+      { v: "Near Delhi Head Post Office, Central Delhi — 110006" },
     ],
   },
   {
@@ -43,14 +35,8 @@ const offices: Office[] = [
     badge: "WB",
     icon: MapPin,
     lines: [
-      { k: "Plot / Khatiyan", v: "Plot No. 163/412, Khatiyan No. 435" },
-      { k: "Premises", v: "Patamachla Patra Villa" },
-      { k: "Road / Street", v: "Bankura Taldangra Simlapal Road" },
-      { k: "Landmark", v: "Near Layekpara Post Office" },
-      { k: "City / Village", v: "Simlapal" },
-      { k: "District", v: "Bankura" },
-      { k: "State", v: "West Bengal" },
-      { k: "PIN", v: "722151" },
+      { v: "Patamachla Patra Villa, Bankura Taldangra Simlapal Road" },
+      { v: "Near Layekpara P.O., Simlapal, Bankura — 722151" },
     ],
   },
 ];
