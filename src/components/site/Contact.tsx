@@ -61,7 +61,32 @@ const Contact = () => {
 
               <div className="flex gap-4">
                 <div className="w-10 h-10 rounded-md bg-white/10 flex items-center justify-center flex-shrink-0">
+                  <Phone className="w-4 h-4" />
+                </div>
+                <div>
+                  <div className="text-xs uppercase tracking-wider text-white/60 mb-1">Phone</div>
+                  <div className="font-semibold space-y-0.5">
+                    <a href="tel:+917224821685" className="block hover:text-accent transition-colors">+91 72248 21685</a>
+                    <a href="tel:+918827563652" className="block hover:text-accent transition-colors">+91 88275 63652</a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <div className="w-10 h-10 rounded-md bg-white/10 flex items-center justify-center flex-shrink-0">
                   <Mail className="w-4 h-4" />
+                </div>
+                <div className="min-w-0">
+                  <div className="text-xs uppercase tracking-wider text-white/60 mb-1">Email</div>
+                  <a href="mailto:satyamenterprises497@gmail.com" className="font-semibold hover:text-accent transition-colors break-all">
+                    satyamenterprises497@gmail.com
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <div className="w-10 h-10 rounded-md bg-white/10 flex items-center justify-center flex-shrink-0">
+                  <User className="w-4 h-4" />
                 </div>
                 <div>
                   <div className="text-xs uppercase tracking-wider text-white/60 mb-1">Business Type</div>
@@ -71,7 +96,7 @@ const Contact = () => {
             </div>
 
             <a
-              href="https://wa.me/919999999999"
+              href="https://wa.me/917224821685"
               target="_blank"
               rel="noreferrer"
               className="mt-8 w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-md bg-accent text-accent-foreground font-semibold hover:shadow-accent transition-all"
